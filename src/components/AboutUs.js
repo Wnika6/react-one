@@ -1,6 +1,4 @@
-// AboutUs.js
-import React from 'react'
-import { employees } from '../data'
+import { employees } from '../data/dataItems'
 import Employee from './Employee'
 
 const AboutUs = () => (

@@ -1,4 +1,3 @@
-import React from 'react'
 import OfferList from './OfferList'
 
 const Offer = () => (

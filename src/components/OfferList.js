@@ -1,6 +1,5 @@
-import React from 'react'
 import OfferItem from './OfferItem'
-import { services } from '../data'
+import { services } from '../data/dataItems'
 
 const OfferList = () => (
 	<div className='services'>

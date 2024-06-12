@@ -1,5 +1,3 @@
-import React from 'react'
-
 const OfferItem = ({ className, name, isNew }) => (
 	<div className={className || 'service-box'}>
 		{isNew && <div className='service-circle'></div>}
