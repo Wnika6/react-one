@@ -1,0 +1,14 @@
+.offer {
+	background-color: #405d78;
+}
+
+.offer-title {
+	color: #ffffff;
+	font-size: 26px;
+}
+
+@media (min-width: 768px) {
+	.offer-title {
+		font-size: 36px;
+	}
+}

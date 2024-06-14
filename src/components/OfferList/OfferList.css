@@ -1,0 +1,26 @@
+.services {
+	display: grid;
+	grid-template-columns: 1fr;
+	justify-content: center;
+	justify-items: center;
+	gap: 35px;
+	padding-bottom: 45px;
+}
+
+@media (min-width: 768px) {
+	.services {
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr 1fr 1fr;
+		gap: 35px;
+	}
+}
+
+@media (min-width: 992px) {
+	.services {
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
+		gap: 62px;
+		width: 720px;
+		margin: 0 auto;
+	}
+}

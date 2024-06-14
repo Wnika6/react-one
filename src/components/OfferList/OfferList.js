@@ -1,5 +1,6 @@
-import OfferItem from './OfferItem'
-import { services } from '../data/dataItems'
+import OfferItem from '../OfferItem/OfferItem'
+import { services } from '../../data/dataItems'
+import './OfferList.css'
 
 const OfferList = () => (
 	<div className='services'>

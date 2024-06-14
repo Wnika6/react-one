@@ -1,9 +1,9 @@
-import OfferList from './OfferList'
-
+import OfferList from '../OfferList/OfferList'
+import './Offer.css'
 const Offer = () => (
 	<section id='offer' className='offer'>
 		<div className='center-container'>
-			<h3 className='section-title offer-title'>Czym zajmuje się nasza firma?</h3>
+			<h2 className='section-title offer-title'>Czym zajmuje się nasza firma?</h2>
 			<OfferList />
 		</div>
 	</section>

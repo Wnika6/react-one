@@ -1,3 +1,4 @@
+import './Navbar.css'
 const Navbar = () => (
 	<nav className='navbar'>
 		<div className='center-container container-navbar'>

@@ -1,0 +1,54 @@
+.service-box {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 250px;
+	width: 240px;
+	background-color: #f1f1f1;
+	color: #000000;
+	transition: 0.5s;
+}
+
+.service-name {
+	font-size: 24px;
+}
+
+.service-circle {
+	position: absolute;
+	height: 22px;
+	width: 22px;
+	top: -11px;
+	left: -11px;
+	border-radius: 50%;
+	background-color: #e07a64;
+}
+
+@media (min-width: 360px) {
+	.service-box {
+		height: 340px;
+		width: 332px;
+	}
+}
+
+@media (min-width: 768px) {
+	.service-box {
+		height: 250px;
+		width: 242px;
+		transition: 0.5s;
+	}
+
+	.service-box:hover {
+		transform: scale(1.05);
+	}
+}
+
+@media (min-width: 992px) {
+	.service-box {
+		height: 198px;
+		width: 194px;
+		transition: 0.5s;
+		cursor: pointer;
+	}
+}

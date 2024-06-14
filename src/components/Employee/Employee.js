@@ -1,3 +1,5 @@
+import './Employee.css'
+
 const Employee = ({ name, position, description, image }) => (
 	<div className='employee-box'>
 		<div className={`employee-box__image ${image}`}></div>

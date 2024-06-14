@@ -1,10 +1,11 @@
-import { employees } from '../data/dataItems'
-import Employee from './Employee'
+import { employees } from '../../data/dataItems'
+import Employee from '../Employee/Employee'
+import './AboutUs.css'
 
 const AboutUs = () => (
 	<section id='aboutUs' className='aboutUs'>
 		<div className='center-container'>
-			<h3 className='section-title'>Nasi specjaliści</h3>
+			<h2 className='section-title'>Nasi specjaliści</h2>
 			<div className='section-employees'>
 				{employees.map(employee => (
 					<Employee

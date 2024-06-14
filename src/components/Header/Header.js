@@ -1,3 +1,4 @@
+import './Header.css'
 const Header = () => (
 	<header>
 		<div className='header-img'>

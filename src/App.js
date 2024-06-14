@@ -1,14 +1,14 @@
-import React from 'react'
-import Navbar from './components/Navbar'
-import Header from './components/Header'
-import AboutUs from './components/AboutUs'
-import Offer from './components/Offer'
-import Footer from './components/Footer'
+import Navbar from './components/Navbar/Navbar'
+import Header from './components/Header/Header'
+import AboutUs from './components/AboutUs/AboutUs'
+import Offer from './components/Offer/Offer'
+import Footer from './components/Footer/Footer'
 import './App.css'
 
-function App() {
+
+const App = () => {
 	return (
-		<div className='App'>
+		<>
 			<Navbar />
 			<Header />
 			<main>
@@ -16,7 +16,7 @@ function App() {
 				<Offer />
 			</main>
 			<Footer />
-		</div>
+		</>
 	)
 }
 

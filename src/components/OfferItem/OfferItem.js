@@ -1,3 +1,5 @@
+import './OfferItem.css'
+
 const OfferItem = ({ className, name, isNew }) => (
 	<div className={className || 'service-box'}>
 		{isNew && <div className='service-circle'></div>}

@@ -1,3 +1,4 @@
+import './Footer.css'
 const Footer = () => (
 	<footer className='footer' id='footer'>
 		<div className='center-container-footer'>
